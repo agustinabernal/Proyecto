@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" type="image/png" href="./img/icono-ghibli.png">
+    <title>Studios Ghibli</title>
+</head>
+
+<body>
+    <header class="banner">
+        <nav class="banner-navbar">
+            <ul class="navbar-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li> <a href="animaciones.html">Animaciones</a> </li>
+                <li> <a href="novedades.html">Novedades</a> </li>
+                <li> <a href="sobrenosotros.html">Sobre nosotros</a> </li>
+                <li> <a href="formulario.html">Registrate</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="formulario">
+            <form action="" id="Formulario">
+
+                <legend class="formulario-titulo">Recibe semanalmente tu dosis de Studios Ghibli</legend>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input class="inputs" type="text" name="name" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div>
+                    <!--br como provisorio-->
+                    <label for="apellido">Apellido</label>
+                    <input class="inputs" type="text" name="apellido" placeholder="Ingresa tu apellido" required>
+                </div>
+                <div class="formulario-mail">
+                    <label for="mail">Email</label>
+                    <input class="inputs" type="mail" name="email" placeholder="Ingresa tu email" required>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar todos">
+                    <input type="button" value="No hacer nada">
+                    <!--Se deja para Javascript-->
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-nav">
+            <nav class="navflex">
+                <ul class="navFooter">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li> <a href="animaciones.html">Animaciones</a> </li>
+                    <li> <a href="novedades.html">Novedades</a> </li>
+                    <li> <a href="sobrenosotros.html">Sobre nosotros</a> </li>
+                    <li> <a href="formulario.html">Registrate</a> </li>
+                </ul>
+            </nav>
+            <div class="redesSociales">
+                <a href="#"><img class="imagen" src="img/instagram.png" alt="Instagram"></a>
+                <a href="#"><img class="imagen" src="img/twitter.png" alt="Twitter"></a>
+            </div>
+            <div class="textoFooter">
+                <p>
+                    Copyright 2021
+                </p>
+            </div>
+        </div>        
+    </footer>
+
+</body>
+
+</html>

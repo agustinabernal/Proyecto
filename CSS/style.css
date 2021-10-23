@@ -1,0 +1,313 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lato';
+}
+
+.banner{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(225deg, #ffc3c6 0, #fbb5bc 25%, #f0a5b1 50%, #e595a6 75%, #da889e 100%);
+}
+.navbar-menu li{
+    padding: 50px;
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+    padding: 4vh;
+}
+
+.main{
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #171918;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo{
+    height: 400px;
+}
+
+
+
+.main-inicio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;   
+}
+
+.main-inicio--historia{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main-inicio--fundadores{
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.main-animaciones{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "ponyo castilloAmbulante princesaMononoke"
+    "elViento chihiro terramar";
+    justify-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ponyo{
+    grid-area: ponyo;
+    transition: transform 0.2s;
+}
+
+.ponyo:hover{
+    transform: scale(1.5);
+}
+
+.castilloAmbulante{
+    grid-area: castilloAmbulante;
+    transition: transform 0.2s;
+}
+
+.castilloAmbulante:hover{
+    transform: scale(1.5);
+}
+
+.princesaMononoke{
+    grid-area: princesaMononoke;
+    transition: transform 0.2s;
+}
+
+.princesaMononoke:hover{
+    transform: scale(1.5);
+}
+
+.elViento{
+    grid-area: elViento;
+    transition: transform 0.2s;
+}
+
+.elViento:hover{
+    transform: scale(1.5);
+}
+
+.chihiro{
+    grid-area: chihiro;
+    transition: transform 0.2s;
+}
+
+.chihiro:hover{
+    transform: scale(1.5);
+}
+
+
+.terramar{
+    grid-area: terramar;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.terramar:hover{
+    transform: scale(1.5);
+}
+
+.animaciones-img{
+    height:200px;
+    border-radius: 10px;
+}
+
+.main-novedades{
+    background-color: white;
+    color: black;
+}
+.novedades-articulo{
+    color:black
+}
+
+.formulario{
+    width: 1000px;
+    font-size: 2vh;
+    color: #000000;
+    background-color: #E7C258;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.formulario-titulo{
+    font-weight: bold;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.inputs{
+    background-color: transparent;
+    border-style: hidden;
+    border-bottom: 1px solid;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.formulario-mail{
+    margin-left: 20px;
+}
+
+.main-novedades{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.3fr 0.3fr; 
+    gap: 20px 30px; 
+    grid-template-areas:
+    "articulo1 articulo3"
+    "articulo2 acticulo2"
+    
+}
+
+.novedades-articulo1{
+    height: 150px;
+    display: inline-block;
+    background-color: #85D0D6;
+    grid-area: articulo1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.noticia-parrafo1{
+    font-weight: 300;
+    font-size: 2vh;
+    color: black;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.novedades-articulo2{
+    height: 150px;
+    display: inline-block;
+    background-color: transparent;
+    grid-area: articulo2;
+    background-color: #85D0D6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.noticia-parrafo2{
+    font-weight: 300;
+    font-size: 2vh;
+    color: black;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.novedades-articulo3{
+    height: 150px;
+    grid-area: articulo3;
+    background-color: #85D0D6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.noticia-parrafo3{
+    font-weight: 300;
+    font-size: 2vh;
+    color: black;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sobreNosotros{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 2vh;
+    font-style: normal;
+    padding: 10px;
+}
+
+.imgRedonda{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.footer-instagram{
+    background-image: url(../img/instagram.png);
+}
+
+.footer-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: solid 2px #171918;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(163, 162, 162);
+    height: 100px;
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.navFooter li{
+    list-style: none;
+}
+
+.navFooter a{
+    text-decoration: none;
+    color:rgb(163, 162, 162);
+    transition: all;
+}
+
+.navFooter a:hover{
+    color: rgb(42, 103, 235);
+}
+
+.imagen{
+    height: 20px;
+    width: 20px;
+}
