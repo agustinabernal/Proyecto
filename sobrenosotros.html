@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,67 +8,76 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS1/style.css">
     <link rel="icon" type="image/png" href="./img/icono-ghibli.png">
     <title>Studios Ghibli</title>
 </head>
-<body>
-    <header class="banner">
-        <nav class="banner-navbar">
-            <ul class="navbar-menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li> <a href="Animaciones.html">Animaciones</a> </li>
-                <li> <a href="novedades.html">Novedades</a> </li>
-                <li> <a href="sobrenosotros.html">Sobre nosotros</a> </li>
-                <li>  <a href="Formulario.html">Registrate</a> </li>
+
+<body class="container">
+    <header class="">
+        <nav class="">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="animaciones.html">Animaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Registrate</a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="sobreNosotros">
-        <h1>Directores</h1>
-        <section>
-            <h2>Hayao Miyazaki</h2>
-            <p>
-            Director de cine y cofundador de Studios Ghibli. En 2013, anuncia su retiro. <br>
-            <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptates a ullam blanditiis cumque sunt porro, quod similique molestiae tempore dolorem accusamus. Vel adipisci dignissimos, dolorem consequuntur quis quasi natus.</em>
-            </p>
-            <img class="imgRedonda" src="./img/hayaomiyasaki.jpg" alt="Hayao Miyasaki">
-        </section>
-    
-        <section>
-        <h2>Isao Takahata</h2>
-        <p>
-            Director, productor y guinista de películas y series japonesas. Cofundador de Studios Ghibli. <br>
-            Murió en el año 2018 a causa de un cáncer de pulmón.
-        </p>
-        <img class="imgRedonda" src="./img/isaotahakata.jpg" alt="Isao Takahata">
-    </section>
-</div>
-</main>
-<footer class="footer">
-    <div class="footer-nav">
-        <nav class="navflex">
-            <ul class="navFooter">
-                <li><a href="index.html">Inicio</a></li>
-                <li> <a href="animaciones.html">Animaciones</a> </li>
-                <li> <a href="novedades.html">Novedades</a> </li>
-                <li> <a href="sobrenosotros.html">Sobre nosotros</a> </li>
-                <li> <a href="formulario.html">Registrate</a> </li>
-            </ul>
-        </nav>
-        <div class="redesSociales">
-            <a href="#"><img class="imagen" src="img/instagram.png" alt="Instagram"></a>
-            <a href="#"><img class="imagen" src="img/twitter.png" alt="Twitter"></a>
-        </div>
-        <div class="textoFooter">
-            <p>
-                Copyright 2021
-            </p>
-        </div>
-    </div>
-</footer>
+            <h1>Museo Ghibli</h1>
+            <section>
+                <h2>¡Visitanos!</h2>
+                <p>
+                    Director de cine y cofundador de Studios Ghibli. En 2013, anuncia su retiro. <br>
+                    <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptates a ullam blanditiis
+                        cumque sunt porro, quod similique molestiae tempore dolorem accusamus. Vel adipisci dignissimos,
+                        dolorem consequuntur quis quasi natus.</em>
+                </p>
+                <img class="imgRedonda" src="./img/hayaomiyasaki.jpg" alt="Hayao Miyasaki">
+            </section>
 
+            <section>
+                <h2>Isao Takahata</h2>
+                <p>
+                    Director, productor y guinista de películas y series japonesas. Cofundador de Studios Ghibli. <br>
+                    Murió en el año 2018 a causa de un cáncer de pulmón.
+                </p>
+                <img class="imgRedonda" src="./img/isaotahakata.jpg" alt="Isao Takahata">
+            </section>
+        </div>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="mb-0 text-muted">&copy; 2021 Agustina Bernal</p>
+        <a href="/" class="d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap" />
+            </svg>
+        </a>
+
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="animaciones.html" class="nav-link px-2 text-muted">Animaciones</a></li>
+            <li class="nav-item"><a href="novedades.html" class="nav-link px-2 text-muted">Novedades</a></li>
+            <li class="nav-item"><a href="sobrenosotros.html" class="nav-link px-2 text-muted">Sobre nosotros</a></li>
+            <li class="nav-item"><a href="formulario.html" class="nav-link px-2 text-muted">Registrate</a></li>
+        </ul>
+    </footer>
 
 </body>
+
 </html>

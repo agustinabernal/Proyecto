@@ -1,0 +1,62 @@
+
+@import "variables";
+
+.novedades-articulo1{
+    height: $noticias;
+    display: inline-block;
+    background-color: $fondo;
+    grid-area: articulo1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.noticia-parrafo1{
+    font-weight: $noticias * 2;
+    font-size: 2vh;
+    color: black;
+    text-align: justify;
+    padding-left: $noticias /5;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.novedades-articulo2{
+    height: $noticias;
+    display: inline-block;
+    background-color: $fondo;
+    grid-area: articulo2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.noticia-parrafo2{
+    font-weight: $noticias *2;
+    font-size: 2vh;
+    color: black;
+    text-align: justify;
+    padding-left: $noticias /5;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.novedades-articulo3{
+    height: $noticias;
+    grid-area: articulo3;
+    background-color: $fondo;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.noticia-parrafo3{
+    font-weight: $noticias *2;
+    font-size: 2vh;
+    color: black;
+    text-align: justify;
+    padding-left: $noticias /5;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

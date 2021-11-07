@@ -3,55 +3,48 @@
     margin: 0px;
 
 }
-body {
+
+/* body {
     background-color: rgb(255, 255, 255);
-    font-family: 'Lato';
-}
+} */
 
-.banner{
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(225deg, #ffc3c6 0, #fbb5bc 25%, #f0a5b1 50%, #e595a6 75%, #da889e 100%);
-}
-.navbar-menu li{
-    padding: 50px;
-    list-style: none;
-    display: inline-block;
-
-}
-
-.navbar-menu a{
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
-    font-size: 2vh;
-    font-weight: bold;
-    padding: 4vh;
-}
-
-.main{
-    padding: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 .main-logo{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    border-bottom: 1px solid #171918;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-.logo{
+    background-color: #85D0D6;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
     height: 400px;
 }
 
+.inicioDescrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
 
+.description{
+    font-size: 3vh;
+    font-weight: regular;
+    color: #171918;
+    text-align: center;
+}
+
+.logo2{
+    height: 300px;
+}
+
+.logo{
+    width: 80%;
+}
 
 .main-inicio{
     display: flex;
@@ -70,7 +63,6 @@ body {
 .main-inicio--fundadores{
     margin-top: 50px;
     margin-bottom: 100px;
-
 }
 
 .main-animaciones{
@@ -151,7 +143,8 @@ body {
     border-radius: 10px;
 }
 
-.main-novedades{
+
+/* .main-novedades{
     background-color: white;
     color: black;
 }
@@ -159,7 +152,31 @@ body {
     color:black
 }
 
-.formulario{
+.novedades-articulo1{
+    transition: transform 0.1s;
+}
+
+.novedades-articulo1:hover{
+    transform: scale(1.1);
+}
+
+.novedades-articulo2{
+    transition: transform 0.1s;
+}
+
+.novedades-articulo2:hover{
+    transform: scale(1.1);
+}
+
+.novedades-articulo3{
+    transition: transform 0.1s;
+}
+
+.novedades-articulo3:hover{
+    transform: scale(1.1);
+} */
+
+/* .formulario{
     width: 1000px;
     font-size: 2vh;
     color: #000000;
@@ -177,15 +194,15 @@ body {
     font-size: 2vh;
     text-align: center;
 }
-
-.inputs{
+ */
+/* .inputs{
     background-color: transparent;
     border-style: hidden;
     border-bottom: 1px solid;
     margin: 10px;
     padding-bottom: 10px;
 }
-
+ */
 .formulario-mail{
     margin-left: 20px;
 }
@@ -212,7 +229,7 @@ body {
 
 
 .noticia-parrafo1{
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 2vh;
     color: black;
     text-align: justify;
@@ -233,7 +250,7 @@ body {
 }
 
 .noticia-parrafo2{
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 2vh;
     color: black;
     text-align: justify;
@@ -252,7 +269,7 @@ body {
 }
 
 .noticia-parrafo3{
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 2vh;
     color: black;
     text-align: justify;
